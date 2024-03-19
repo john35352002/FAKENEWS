@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News Layout</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+  
+  }
+
+  .news-card {
+    display: flex;
+    flex-direction: row; /* Changed to row */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .news-image {
+    width: 300px; /* Adjusted width */
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; /* Added border radius */
+  }
+
+  .news-content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .news-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .news-description {
+    font-size: 14px;
+    color: #555;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .fake-news {
+    background-color: #0fdd31;
+    color: rgb(239, 12, 12);
+    font-size: 30px;
+    padding: 20px;
+    filter: brightness(50%);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<!-- "FAKE NEWS" text -->
+<div class="fake-news">FAKE NEWS SITE</div>
+
+</div>
+<div class="container">
+  <div class="news-card">
+    <img class="news-image" src="1a.jpg" alt="Image">
+    <div class="news-content">
+      <h2 class="news-title">TAMNANAN UG MARIJUANA</h2>
+      <p class="news-description">Dito mo matatagpuan ang tunay na garden of eden.</p>
+    </div>
+  </div>
+
+  <!-- ADD MORE PIC -->
+  <div class="news-card">
+    <img class="news-image" src="1b.jpg" alt="Image">
+    <div class="news-content">
+      <h2 class="news-title">THIS IS THE VALENCIA</h2>
+      <p class="news-description">Valecia is city with o adik.</p>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <img class="news-image" src="1c.jpg" alt="Image">
+    <div class="news-content">
+      <h2 class="news-title">THIS IS THE BULACAO</h2>
+      <p class="news-description">bulacao is very wonderfull place but they are many teroristism group.</p>
+    </div>
+  </div>
+
+  <div class="news-card">
+    <img class="news-image" src="BAGSIK.jpg" alt="Image">
+    <div class="news-content">
+      <h2 class="news-title">THIS IS BOY BAGSIK</h2>
+      <p class="news-description">si boy bagsik ay puro angas lang ang alam.</p>
+    </div>
+  </div>
+
+
+  <div class="news-card">
+    <img class="news-image" src="TAPANG.jpg" alt="Image">
+    <div class="news-content">
+      <h2 class="news-title">THIS IS BOY TAPANG </h2>
+      <p class="news-description">si boy tapang ang kumakain ng kahit anong insekto, pero ngayon pati na babae kinakain uhahahah.</p>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
